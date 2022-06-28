@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+### Maven ###
+favorite-recipes/target/
+/target/**
+*/target/**
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
