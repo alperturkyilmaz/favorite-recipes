@@ -22,15 +22,18 @@ used in the project are as follows:
 
 ## How to start
 
-Step #1: switch to git repository directory
+Step #1:clone repository from github
+> git clone https://github.com/alperturkyilmaz/favorite-recipes.git 
+
+Step #2: switch to local git repository directory
 
 > cd favorite-recipes/
 
-Step #2: run maven build/install
+Step #3: run maven build/install
 
 > mvn -f ./pom.xml clean install
 
-Step #2: run the spring boot application
+Step #4: run the spring boot application
 
 > java -jar ./target/favorite-recipes-1.0-SNAPSHOT.jar
 
